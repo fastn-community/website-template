@@ -1,0 +1,59 @@
+-- import: theme/pricing
+
+-- ws.page:
+
+-- pricing.pricing: Incredibly Easy To Use, But Surprisingly Powerful
+
+-- pricing.pricing.body:
+
+Lorem ipsum dolor sit amet, consectet adipiscing elit. Suspendisse varius enim 
+in eros elementum tristique. consectet adipiscing elit. Suspendisse varius enim 
+in eros elementum tristique.
+
+-- pricing.pricing.pricing-cards:
+
+-- pricing.pricing-card: Free Plan
+active: false 
+price: 0
+currency: \$
+subscription: monthly
+feature-list: $pricing.free-feature-list
+cta-text: Get Started
+cta-link: /pricing/
+body-title: For startups
+
+Lorem ipsum dolor sit amet, consectet adipiscing elit. Suspendisse varius enim 
+in eros elementum tristique.
+
+-- pricing.pricing-card: Startup Plan
+active: true 
+price: 99
+currency: \$
+subscription: monthly
+feature-list: $pricing.startup-feature-list
+cta-text: Get Started
+cta-link: /pricing/
+body-title: For startups
+tag: Best Plan
+
+Lorem ipsum dolor sit amet, consectet adipiscing elit. Suspendisse varius enim 
+in eros elementum tristique.
+
+-- pricing.pricing-card: Enterprise Plan
+active: false 
+price: 153
+currency: \$
+subscription: monthly
+feature-list: $pricing.enterprise-feature-list
+cta-text: Get Started
+cta-link: /pricing/
+body-title: For startups
+
+Lorem ipsum dolor sit amet, consectet adipiscing elit. Suspendisse varius enim 
+in eros elementum tristique.
+
+-- end: pricing.pricing.pricing-cards
+
+-- end: pricing.pricing
+
+-- end: ws.page

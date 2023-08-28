@@ -1,0 +1,27 @@
+-- import: __user_name__.github.io/__repo_name__/blog/post-author as author
+
+
+-- common.post-meta meta1: New product launch event
+post-image: $assets.files.assets.featured.png
+image: $assets.files.assets.avatar.png
+author: $author.patrica
+post-url: /sample-post/
+published-on: 10 Aug 2023
+
+Mauris ullamcorper tortor sed purus interdum, fermentum efficitur est dictu.
+
+-- common.post-meta meta2: We Transform ideas into digital outcomes.
+post-image: $assets.files.assets.post2.png
+image: $assets.files.assets.avatar.png
+author: $author.patrica
+post-url: /sample-post/
+published-on: 12 Aug 2023
+
+Mauris ullamcorper tortor sed purus interdum, fermentum efficitur est dictu.
+
+-- common.post-meta meta3: Bringing the world together through live experiences.
+post-image: $assets.files.assets.post1.png
+image: $assets.files.assets.avatar.png
+author: $author.patrica
+post-url: /sample-post/
+published-on: 15 Aug 2023
