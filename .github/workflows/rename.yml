@@ -4,7 +4,7 @@ on: [push]
 
 jobs:
   rename-project:
-    if: ${{ github.repository != 'fifthtry/fastn-template' && github.run_number == 1 }}
+    if: ${{ github.repository != 'fastn-community/website-template' && github.run_number == 1 }}
     permissions: write-all
     runs-on: ubuntu-latest
     steps:
@@ -24,9 +24,6 @@ jobs:
           sed -i -e 's/__user_name__/${{ env.REPOSITORY_OWNER }}/g' -e 's/__repo_name__/${{ env.REPOSITORY_NAME }}/g' blog/post-meta.ftd
           sed -i -e 's/__user_name__/${{ env.REPOSITORY_OWNER }}/g' -e 's/__repo_name__/${{ env.REPOSITORY_NAME }}/g' FASTN/ws.ftd
           sed -i -e 's/__user_name__/${{ env.REPOSITORY_OWNER }}/g' -e 's/__repo_name__/${{ env.REPOSITORY_NAME }}/g' sample-post.ftd
-          sed -i -e 's/__user_name__/${{ env.REPOSITORY_OWNER }}/g' -e 's/__repo_name__/${{ env.REPOSITORY_NAME }}/g' index.ftd
-          sed -i -e 's/__user_name__/${{ env.REPOSITORY_OWNER }}/g' -e 's/__repo_name__/${{ env.REPOSITORY_NAME }}/g' sidebar.ftd
-          sed -i -e 's/__user_name__/${{ env.REPOSITORY_OWNER }}/g' -e 's/__repo_name__/${{ env.REPOSITORY_NAME }}/g' README.md
           rm .github/workflows/rename.yml
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
