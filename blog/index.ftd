@@ -1,0 +1,57 @@
+-- import: __user_name__.github.io/__repo_name__/blog/post-meta as meta
+
+-- ws.page: Featured Posts
+blog: true
+
+-- ws.page.hero:
+
+-- ftd.column:
+padding-top.px: 64
+
+-- end: ftd.column
+
+-- ws.featured-post:
+post-data: $meta.meta3
+info: Small Incidental Text.
+cta-primary: Read more
+cta-primary-url: /sample-post/
+
+-- end: ws.page.hero
+
+-- ws.posts:
+
+-- ws.markdown:
+
+Sed nec pharetra felis, in ultrices neque. Phasellus varius semper tellus, ac
+imperdiet erat commodo id. Aenean lobortis justo et velit ornare malesuada.
+
+-- ws.post-card:
+post-data: $meta.meta1
+
+-- ws.post-card:
+post-data: $meta.meta2
+
+-- ws.post-card:
+post-data: $meta.meta1
+
+-- ws.post-card:
+post-data: $meta.meta2
+
+-- ws.post-card:
+post-data: $meta.meta1
+
+-- ws.post-card:
+post-data: $meta.meta2
+
+-- ws.post-card:
+post-data: $meta.meta1
+
+-- ws.post-card:
+post-data: $meta.meta2
+
+-- ws.post-card:
+post-data: $meta.meta1
+
+-- end: ws.posts
+
+-- end: ws.page

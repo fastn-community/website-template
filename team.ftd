@@ -1,0 +1,50 @@
+-- import: theme/team
+
+
+-- ws.page: 
+
+-- ws.hero-image-right:  We Transform ideas into digital outcomes.
+image: https://fastn-community.github.io/misty-gray/-/fastn-community.github.io/misty-gray/assets/hero.png
+
+We are an award-winning strategic design company that provides 
+consultancy services and help you create outstanding digital products.
+
+-- ws.content: Our platform built for the next generation startups
+id: about-us
+
+Fastn is an all-in-one payments platform where businesses can connect, transact,
+and grow together.
+
+-- ws.hero-image-left: We are here to help you
+image: $assets.files.assets.left-img1.jpg
+
+Welcome Studio gives you all the tools you need to create and host virtual
+experiences that look awesome and put your brand centerstage.
+
+-- team.team: Meet the amazing team behind Acme Inc 
+tag: OUR TEAM 
+
+-- team.team.body:
+
+Lorem ipsum dolor sit amet consectetur dolorili adipiscing elit.
+
+-- team.team.members:
+
+-- team.member: John Doe
+profile: CEO & Founder
+image: $assets.files.assets.john-doe.jpg
+
+Lorem ipsum dolor sit amet consectetur dolorili adipiscing elit.
+
+-- team.member: John Doe
+profile: VP of Marketing
+image: $assets.files.assets.john-doe.jpg
+
+Lorem ipsum dolor sit amet consectetur dolorili adipiscing elit.
+
+-- end: team.team.members
+
+-- end: team.team
+
+
+-- end: ws.page
