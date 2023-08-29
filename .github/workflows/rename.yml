@@ -23,6 +23,7 @@ jobs:
           sed -i -e 's/__user_name__/${{ env.REPOSITORY_OWNER }}/g' -e 's/__repo_name__/${{ env.REPOSITORY_NAME }}/g' blog/index.ftd
           sed -i -e 's/__user_name__/${{ env.REPOSITORY_OWNER }}/g' -e 's/__repo_name__/${{ env.REPOSITORY_NAME }}/g' blog/post-meta.ftd
           sed -i -e 's/__user_name__/${{ env.REPOSITORY_OWNER }}/g' -e 's/__repo_name__/${{ env.REPOSITORY_NAME }}/g' FASTN/ws.ftd
+          sed -i -e 's/__user_name__/${{ env.REPOSITORY_OWNER }}/g' -e 's/__repo_name__/${{ env.REPOSITORY_NAME }}/g' FASTN.ftd
           sed -i -e 's/__user_name__/${{ env.REPOSITORY_OWNER }}/g' -e 's/__repo_name__/${{ env.REPOSITORY_NAME }}/g' sample-post.ftd
           rm .github/workflows/rename.yml
       - uses: stefanzweifel/git-auto-commit-action@v4
